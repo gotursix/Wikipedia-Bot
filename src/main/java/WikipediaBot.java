@@ -16,7 +16,7 @@ public class WikipediaBot {
     public static JDA jda;
 
     public static void main(String[] args) throws LoginException {
-        jda = JDABuilder.createLight("ODQ0OTU4NDE0OTgzMTM1MjYy.YKZ-2A.GStM0iNxIyFrsbs7BkPhTje_qt4", GatewayIntent.GUILD_MESSAGES, GatewayIntent.DIRECT_MESSAGES)
+        jda = JDABuilder.createLight("YOUR_DISCORD_BOT_TOKEN", GatewayIntent.GUILD_MESSAGES, GatewayIntent.DIRECT_MESSAGES)
                 .setActivity(Activity.playing("Type !help"))
                 .build();
         jda.addEventListener(new Help());
