@@ -35,3 +35,8 @@ Displays the current level of the user. The level is increased as the user asks 
 :white_check_mark: !leaderboards [number]
   
 Displays the top users, limited by the number, otherwise displays the top 10 users and their level.
+  
+  
+  
+  
+  Implemented using JDA and a sql db
